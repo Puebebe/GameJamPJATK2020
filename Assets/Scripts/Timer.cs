@@ -4,7 +4,7 @@ using TMPro;
 public class Timer : MonoBehaviour
 {
     [SerializeField]
-    float time = 60;
+    public float time = 60;
 
     TextMeshProUGUI text;
 
