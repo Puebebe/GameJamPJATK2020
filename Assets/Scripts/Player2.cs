@@ -10,6 +10,7 @@ public class Player2 : MonoBehaviour
     private float jumpSpeed = 400f;
     private Rigidbody2D rb2;
     private bool isGrounded;
+    private Vector2 startPosition;
 
 
     // Start is called before the first frame update
@@ -17,6 +18,7 @@ public class Player2 : MonoBehaviour
     {
         rb2 = GetComponent<Rigidbody2D>();
         isGrounded = true;
+        startPosition = transform.position;
 }
 
     // Update is called once per frame
@@ -51,7 +53,7 @@ public class Player2 : MonoBehaviour
         }
         if (collision.gameObject.tag == "Water")
         {
-            Destroy(gameObject);
+            transform.position = startPosition;
             var uiManager = FindObjectOfType<UIManager>();
             uiManager?.AddScorePlayer(player: 1);
         }
