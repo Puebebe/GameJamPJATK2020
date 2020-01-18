@@ -13,7 +13,6 @@ public class Timer : MonoBehaviour
     {
         GameState.isOver = false;
         time += 0.99f;
-        Debug.Log("current time = " + time);
         text = GetComponent<TextMeshProUGUI>();
     }
 
@@ -25,7 +24,6 @@ public class Timer : MonoBehaviour
 
         if (!GameState.isOver && time < 1)
         {
-            Debug.LogWarning("Game ended");
             GameState.isOver = true;
             Time.timeScale = 0;
             var uiManager = FindObjectOfType<UIManager>();

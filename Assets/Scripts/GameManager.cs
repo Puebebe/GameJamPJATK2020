@@ -7,6 +7,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] TMP_InputField inputField1;
     [SerializeField] TMP_InputField inputField2;
 
+    public void NewGame()
+    {
+        SceneManager.LoadScene("NamesColorsMenu");
+    }
+
     public void StartGame()
     {
         if (string.IsNullOrWhiteSpace(inputField1.text) || string.IsNullOrWhiteSpace(inputField2.text))
