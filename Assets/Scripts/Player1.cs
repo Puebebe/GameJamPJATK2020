@@ -58,7 +58,7 @@ public class Player1 : MonoBehaviour
         if (collision.gameObject.tag == "Water")
         {
             transform.position = startPosition;
-
+            rb1.velocity = Vector2.zero;
             var uiManager = FindObjectOfType<UIManager>();
             uiManager?.AddScorePlayer(player: 2);
         }
