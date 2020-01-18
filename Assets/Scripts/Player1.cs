@@ -56,6 +56,8 @@ public class Player1 : MonoBehaviour
         if (collision.gameObject.tag == "Water")
         {
             Destroy(gameObject);
+            var uiManager = FindObjectOfType<UIManager>();
+            uiManager?.AddScorePlayer(player: 2);
         }
     }
 }
