@@ -41,7 +41,8 @@ public class Player2 : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.RightShift))
         {
-
+            Debug.Log(transform.right);
+            Debug.DrawLine(transform.position, transform.position + transform.right * 5);
         }
     }
 
