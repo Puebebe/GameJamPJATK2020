@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 
 public class Timer : MonoBehaviour
@@ -27,7 +25,9 @@ public class Timer : MonoBehaviour
         {
             //Game ended
             Time.timeScale = 0;
-            
+            var uiManager = FindObjectOfType<UIManager>();
+            uiManager.UpdateGameOverScreen();
+            uiManager.ShowGameOverScreen();
         }
     }
 }
