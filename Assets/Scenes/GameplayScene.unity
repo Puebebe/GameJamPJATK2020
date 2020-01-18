@@ -2111,6 +2111,7 @@ MonoBehaviour:
   scorePlayer1: {fileID: 409544044}
   scorePlayer2: {fileID: 1634929184}
   gameOverScreen: {fileID: 366434693}
+  gameOverText: {fileID: 1605032682}
   GOSplayerName1: {fileID: 1926656206}
   GOSplayerName2: {fileID: 1772815190}
   GOSplayerScore1: {fileID: 2126449508}

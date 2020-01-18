@@ -10,6 +10,7 @@ public class UIManager : MonoBehaviour
 
     [Header("Game Over Screen")]
     [SerializeField] GameObject gameOverScreen;
+    [SerializeField] TextMeshProUGUI gameOverText;
     [SerializeField] TextMeshProUGUI GOSplayerName1;
     [SerializeField] TextMeshProUGUI GOSplayerName2;
     [SerializeField] TextMeshProUGUI GOSplayerScore1;
@@ -41,6 +42,11 @@ public class UIManager : MonoBehaviour
 
     public void UpdateGameOverScreen()
     {
+        if (GameState.playerScore1 > GameState.playerScore2)
+            gameOverText.text = GameState.playerName1 + " won!";
+        else if (GameState.playerScore2 > GameState.playerScore1)
+            gameOverText.text = GameState.playerName2 + " won!";
+
         GOSplayerName1.text = GameState.playerName1;
         GOSplayerName2.text = GameState.playerName2;
         GOSplayerScore1.text = "" + GameState.playerScore1;
