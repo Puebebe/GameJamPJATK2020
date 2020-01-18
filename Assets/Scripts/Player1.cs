@@ -57,10 +57,16 @@ public class Player1 : MonoBehaviour
         }
         if (collision.gameObject.tag == "Water")
         {
-            transform.position = startPosition;
-            rb1.velocity = Vector2.zero;
+            PlayerReset();
             var uiManager = FindObjectOfType<UIManager>();
             uiManager?.AddScorePlayer(player: 2);
         }
+        
+    }
+    private void PlayerReset()
+    {
+        transform.position = startPosition;
+        rb1.velocity = Vector2.zero;
+        transform.rotation = Quaternion.identity;
     }
 }
