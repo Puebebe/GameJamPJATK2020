@@ -11,7 +11,9 @@ public class Timer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        GameState.isOver = false;
         time += 0.99f;
+        Debug.Log("current time = " + time);
         text = GetComponent<TextMeshProUGUI>();
     }
 
@@ -21,9 +23,10 @@ public class Timer : MonoBehaviour
         time -= Time.deltaTime;
         text.text = "" + (int)time;
 
-        if (time < 1)
+        if (!GameState.isOver && time < 1)
         {
-            //Game ended
+            Debug.LogWarning("Game ended");
+            GameState.isOver = true;
             Time.timeScale = 0;
             var uiManager = FindObjectOfType<UIManager>();
             uiManager.UpdateGameOverScreen();

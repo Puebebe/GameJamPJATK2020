@@ -14,6 +14,19 @@ public class GameManager : MonoBehaviour
 
         GameState.playerName1 = inputField1.text;
         GameState.playerName2 = inputField2.text;
+        Time.timeScale = 1;
         SceneManager.LoadScene("GameplayScene");
+    }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("GameplayScene");
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void StartMenu()
+    {
+        SceneManager.LoadScene("StartMenu");
     }
 }

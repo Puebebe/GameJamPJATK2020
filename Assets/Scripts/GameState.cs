@@ -2,5 +2,5 @@
 {
     public static string playerName1, playerName2;
     public static int playerScore1, playerScore2;
-
+    public static bool isOver;
 }
