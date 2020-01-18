@@ -3,6 +3,8 @@ using TMPro;
 
 public class UIManager : MonoBehaviour
 {
+    [SerializeField] TextMeshProUGUI namePlayer1;
+    [SerializeField] TextMeshProUGUI namePlayer2;
     [SerializeField] TextMeshProUGUI scorePlayer1;
     [SerializeField] TextMeshProUGUI scorePlayer2;
 
@@ -17,6 +19,8 @@ public class UIManager : MonoBehaviour
     {
         GameState.playerScore1 = 0;
         GameState.playerScore2 = 0;
+        namePlayer1.text = "" + GameState.playerName1;
+        namePlayer2.text = "" + GameState.playerName2;
         scorePlayer1.text = "" + GameState.playerScore1;
         scorePlayer2.text = "" + GameState.playerScore1;
     }

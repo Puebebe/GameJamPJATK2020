@@ -2106,6 +2106,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c17fcdcff541528459c1de286d383075, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  namePlayer1: {fileID: 1103098026}
+  namePlayer2: {fileID: 1466807263}
   scorePlayer1: {fileID: 409544044}
   scorePlayer2: {fileID: 1634929184}
   gameOverScreen: {fileID: 366434693}
