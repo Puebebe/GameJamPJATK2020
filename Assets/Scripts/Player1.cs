@@ -67,6 +67,7 @@ public class Player1 : MonoBehaviour
     {
         transform.position = startPosition;
         rb1.velocity = Vector2.zero;
+        rb1.angularVelocity = 0;
         transform.rotation = Quaternion.identity;
     }
 }
