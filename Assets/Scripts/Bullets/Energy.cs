@@ -21,7 +21,7 @@ public class Energy : MonoBehaviour
         {
             var player = collision.gameObject.GetComponent<Player>();
             player.speed *= 2;
-            StartCoroutine(revertPlayerSpeedAfterSeconds(3, player));
+            player.StartCoroutine(revertPlayerSpeedAfterSeconds(3, player));
 
         }
         Destroy(gameObject);

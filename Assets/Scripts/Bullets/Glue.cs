@@ -22,7 +22,7 @@ public class Glue : MonoBehaviour
         {
             var player = collision.gameObject.GetComponent<Player>();
             player.speed = 0;
-            StartCoroutine(revertPlayerSpeedAfterSeconds(3, player));
+            player.StartCoroutine(revertPlayerSpeedAfterSeconds(3, player));
 
         }
         Destroy(gameObject);

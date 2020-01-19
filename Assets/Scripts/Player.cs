@@ -15,12 +15,17 @@ public class Player : MonoBehaviour
     protected Vector2 startPosition;
     protected Animator animator;
 
+    float startSpeed;
+    Vector3 startScale;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         isGrounded = true;
         startPosition = transform.position;
         animator = GetComponent<Animator>();
+        startSpeed = speed;
+        startScale = transform.localScale;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -41,9 +46,6 @@ public class Player : MonoBehaviour
 
     private IEnumerator PlayerResetAfterSeconds(int seconds)
     {
-        //float speedBasic = speed;
-        //float jumpSpeedBasic = jumpSpeed;
-        //speed = 0;
         gameObject.SetActive(false);
         yield return new WaitForSeconds(seconds);
         transform.position = startPosition;
@@ -51,8 +53,7 @@ public class Player : MonoBehaviour
         rb.angularVelocity = 0;
         transform.rotation = Quaternion.identity;
         gameObject.SetActive(true);
-        //speed = speedBasic;
-        //jumpSpeed = jumpSpeedBasic;
-
+        speed = startSpeed;
+        transform.localScale = startScale;
     }
 }

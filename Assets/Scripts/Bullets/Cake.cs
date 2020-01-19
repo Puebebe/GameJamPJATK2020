@@ -22,7 +22,7 @@ public class Cake : MonoBehaviour
         {
             var player = collision.gameObject.GetComponent<Player>();
             player.speed = -player.speed;
-            StartCoroutine(revertPlayerControlsAfterSeconds(3, player));
+            player.StartCoroutine(revertPlayerControlsAfterSeconds(3, player));
 
         }
         Destroy(gameObject);
