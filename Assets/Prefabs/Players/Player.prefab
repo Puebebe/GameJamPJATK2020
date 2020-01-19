@@ -45,6 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullets:
   - {fileID: 1502211810731847195, guid: 2a8995d8f5041c744b3ae83d64c41d86, type: 3}
+  - {fileID: 1502211810731847195, guid: d5a9ce8db980040ff899aadeef44a1c4, type: 3}
 --- !u!1 &4020034060709616289
 GameObject:
   m_ObjectHideFlags: 0
@@ -61,7 +62,7 @@ GameObject:
   - component: {fileID: 6769238691607712332}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

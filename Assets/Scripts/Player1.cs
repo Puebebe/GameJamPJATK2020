@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player1 : MonoBehaviour
+public class Player1 : Player
 {
-    [SerializeField]
-    private float speed = 700f;
+
+
     [SerializeField]
     private float jumpSpeed = 400f;
     [SerializeField]
