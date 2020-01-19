@@ -36,7 +36,7 @@ public class Player1 : MonoBehaviour
             isGrounded = false;
             animator.SetBool("isGrounded", false);
 
-            //   animator.SetBool("IsJumping", true);
+          
         }
         if (Input.GetKey(KeyCode.A)){
             animator.SetBool("isMove", true);
