@@ -21,7 +21,13 @@ public class Spinach : MonoBehaviour
         {
             var player = collision.gameObject.GetComponent<Player>();
             player.transform.localScale *= 2;
+<<<<<<< Updated upstream
             player.StartCoroutine(revertPlayerScaleAfterSeconds(3, player));
+=======
+            StartCoroutine(revertPlayerScaleAfterSeconds(3, player));
+            Debug.Log(player.gameObject.name);
+
+>>>>>>> Stashed changes
         }
         Destroy(gameObject);
     }
