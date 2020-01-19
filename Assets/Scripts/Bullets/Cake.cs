@@ -21,16 +21,15 @@ public class Cake : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             var player = collision.gameObject.GetComponent<Player>();
-            SpriteRenderer sr = player.GetComponent<SpriteRenderer>();
-            sr.flipY = !sr.flipY;
-            StartCoroutine(revertPlayerFlipYAfterSeconds(3, sr));
+            player.speed = -player.speed;
+            StartCoroutine(revertPlayerControlsAfterSeconds(3, player));
 
         }
         Destroy(gameObject);
     }
-    IEnumerator revertPlayerFlipYAfterSeconds(int seconds, SpriteRenderer sr)
+    IEnumerator revertPlayerControlsAfterSeconds(int seconds, Player player)
     {
         yield return new WaitForSeconds(seconds);
-        sr.flipY = !sr.flipY;
+        player.speed = -player.speed;
     }
 }
