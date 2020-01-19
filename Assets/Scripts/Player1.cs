@@ -4,99 +4,43 @@ using UnityEngine;
 
 public class Player1 : Player
 {
-
-
-    [SerializeField]
-    private float jumpSpeed = 400f;
-    [SerializeField]
-    private float shootSpeed = 500f;
-
-    private Animator animator;
-
-    private Rigidbody2D rb1;
-    private bool isGrounded;
-    private Vector2 startPosition;
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        rb1 = GetComponent<Rigidbody2D>();
-        isGrounded = true;
-        startPosition = transform.position;
-        animator = GetComponent<Animator>();
-    }
-
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.W) && isGrounded)
         {
-            rb1.AddForce(new Vector2(0, jumpSpeed));
+            rb.AddForce(new Vector2(0, jumpSpeed));
             isGrounded = false;
             animator.SetBool("isGrounded", false);
-
-          
         }
-        if (Input.GetKey(KeyCode.A)){
+
+        if (Input.GetKey(KeyCode.A))
+        {
             animator.SetBool("isMove", true);
-            rb1.AddForce(Vector2.left* speed * Time.deltaTime);
+            rb.AddForce(Vector2.left * speed * Time.deltaTime);
             transform.rotation = Quaternion.Euler(new Vector2(0, 180));
         }
         else
         {
             animator.SetBool("isMove", false);
         }
-        if (Input.GetKey(KeyCode.D)){
+
+        if (Input.GetKey(KeyCode.D))
+        {
             animator.SetBool("isMove", true);
-            rb1.AddForce(Vector2.right* speed * Time.deltaTime);
+            rb.AddForce(Vector2.right * speed * Time.deltaTime);
             transform.rotation = Quaternion.Euler(new Vector2(0, 0));
         }
         else
         {
             animator.SetBool("isMove", false);
         }
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log(transform.right);
-            Debug.DrawLine(transform.position, transform.position + transform.right*5);
             animator.SetTrigger("isShoot");
             Gun gun = GetComponentInChildren<Gun>();
             gun?.Fire();
         }
-       
-}
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(collision.gameObject.tag == "Ground")
-        {
-            isGrounded = true;
-            animator.SetBool("isGrounded", true);
-        }
-        if (collision.gameObject.tag == "Water")
-        {
-            animator.SetTrigger("isDie");
-            var uiManager = FindObjectOfType<UIManager>();
-            uiManager?.AddScorePlayer(player: 2);
-            uiManager.StartCoroutine(PlayerResetAfterSeconds(3));
-        }
-    }
-
-    private IEnumerator PlayerResetAfterSeconds(int seconds)
-    {
-        //float speedBasic = speed;
-        //float jumpSpeedBasic = jumpSpeed;
-        //speed = 0;
-        gameObject.SetActive(false);
-        yield return new WaitForSeconds(seconds);
-        transform.position = startPosition;
-        rb1.velocity = Vector2.zero;
-        rb1.angularVelocity = 0;
-        transform.rotation = Quaternion.identity;
-        gameObject.SetActive(true);
-        //speed = speedBasic;
-        //jumpSpeed = jumpSpeedBasic;
-
     }
 }
