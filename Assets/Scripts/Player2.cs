@@ -44,4 +44,33 @@ public class Player2 : Player
             gun?.Fire();
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Ground")
+        {
+            isGrounded = true;
+            animator.SetBool("isGrounded", true);
+        }
+        if (collision.gameObject.tag == "Water")
+        {
+            animator.SetTrigger("isDie");
+            var uiManager = FindObjectOfType<UIManager>();
+            uiManager?.AddScorePlayer(player: 1);
+            uiManager.StartCoroutine(PlayerResetAfterSeconds(3));
+        }
+    }
+
+    private IEnumerator PlayerResetAfterSeconds(int seconds)
+    {
+        gameObject.SetActive(false);
+        yield return new WaitForSeconds(seconds);
+        transform.position = startPosition;
+        rb.velocity = Vector2.zero;
+        rb.angularVelocity = 0;
+        transform.rotation = Quaternion.identity;
+        gameObject.SetActive(true);
+        speed = startSpeed;
+        transform.localScale = startScale;
+    }
 }
