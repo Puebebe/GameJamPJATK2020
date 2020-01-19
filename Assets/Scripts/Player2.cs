@@ -76,6 +76,7 @@ public class Player2 : MonoBehaviour
     }
     private void PlayerReset()
     {
+        animator.SetBool("isGrounded", true);
         transform.position = startPosition;
         rb2.velocity = Vector2.zero;
         rb2.angularVelocity = 0;
