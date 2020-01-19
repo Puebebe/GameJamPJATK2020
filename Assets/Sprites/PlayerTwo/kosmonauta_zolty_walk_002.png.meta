@@ -14,6 +14,18 @@ TextureImporter:
   - first:
       213: -2984138899909269964
     second: kosmonauta_zolty_walk_002_3
+  - first:
+      213: -979626232356265597
+    second: kosmonauta_zolty_walk_002_0
+  - first:
+      213: 3720687955449137469
+    second: kosmonauta_zolty_walk_002_1
+  - first:
+      213: 1093768530656625967
+    second: kosmonauta_zolty_walk_002_2
+  - first:
+      213: 9218706152137619753
+    second: kosmonauta_zolty_walk_002_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -112,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6e48482752002e50800000000000000
-      internalID: 6782423612181204586
+      spriteID: 38120c7c12ba762f0800000000000000
+      internalID: -979626232356265597
       vertices: []
       indices: 
       edges: []
@@ -126,15 +138,15 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17f76ec1d67ab9240800000000000000
-      internalID: 4799613914971537265
+      spriteID: d39ce908bf982a330800000000000000
+      internalID: 3720687955449137469
       vertices: []
       indices: 
       edges: []
@@ -147,15 +159,15 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de73602aa6a8f8630800000000000000
-      internalID: 3931513190307215341
+      spriteID: f250a400fa8dd2f00800000000000000
+      internalID: 1093768530656625967
       vertices: []
       indices: 
       edges: []
@@ -168,15 +180,15 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 436ab7e2b753696d0800000000000000
-      internalID: -2984138899909269964
+      spriteID: 929fede076c6fef70800000000000000
+      internalID: 9218706152137619753
       vertices: []
       indices: 
       edges: []

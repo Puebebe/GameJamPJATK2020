@@ -8,6 +8,12 @@ TextureImporter:
   - first:
       213: 6969321687782905408
     second: kosmonauta_zolty_idle_1
+  - first:
+      213: 6269335277591844311
+    second: kosmonauta_zolty_idle_0
+  - first:
+      213: 2927361295243840789
+    second: kosmonauta_zolty_idle_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -106,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8081af2a0a909e5c0800000000000000
-      internalID: -4185803793130448888
+      spriteID: 7d5dfa6f737210750800000000000000
+      internalID: 6269335277591844311
       vertices: []
       indices: 
       edges: []
@@ -120,15 +126,15 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 046d9b5662108b060800000000000000
-      internalID: 6969321687782905408
+      spriteID: 51d8c34969310a820800000000000000
+      internalID: 2927361295243840789
       vertices: []
       indices: 
       edges: []
