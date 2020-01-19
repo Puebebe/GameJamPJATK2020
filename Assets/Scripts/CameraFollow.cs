@@ -22,7 +22,7 @@ public class CameraFollow : MonoBehaviour
     {
         Vector3 distance = playerTwo.transform.position - playerOne.transform.position;
         Vector3 newPosition = 0.5f * distance + playerOne.transform.position;
-        transform.position = new Vector3(newPosition.x, newPosition.y, transform.position.z); 
+        transform.position = new Vector3(transform.position.x, newPosition.y, transform.position.z); 
 
     }
 }
