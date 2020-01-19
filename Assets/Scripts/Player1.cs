@@ -11,6 +11,8 @@ public class Player1 : MonoBehaviour
     [SerializeField]
     private float shootSpeed = 500f;
 
+    private Animator animator;
+
     private Rigidbody2D rb1;
     private bool isGrounded;
     private Vector2 startPosition;
@@ -22,6 +24,7 @@ public class Player1 : MonoBehaviour
         rb1 = GetComponent<Rigidbody2D>();
         isGrounded = true;
         startPosition = transform.position;
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -31,22 +34,36 @@ public class Player1 : MonoBehaviour
         {
             rb1.AddForce(new Vector2(0, jumpSpeed));
             isGrounded = false;
+            animator.SetBool("isGrounded", false);
 
             //   animator.SetBool("IsJumping", true);
         }
         if (Input.GetKey(KeyCode.A)){
+            animator.SetBool("isMove", true);
             rb1.AddForce(Vector2.left* speed * Time.deltaTime);
             transform.rotation = Quaternion.Euler(new Vector2(0, 180));
         }
+        else
+        {
+            animator.SetBool("isMove", false);
+        }
         if (Input.GetKey(KeyCode.D)){
+            animator.SetBool("isMove", true);
             rb1.AddForce(Vector2.right* speed * Time.deltaTime);
             transform.rotation = Quaternion.Euler(new Vector2(0, 0));
+        }
+        else
+        {
+            animator.SetBool("isMove", false);
         }
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log(transform.right);
             Debug.DrawLine(transform.position, transform.position + transform.right*5);
+            animator.SetTrigger("isShoot");
+
         }
+       
 }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -54,9 +71,11 @@ public class Player1 : MonoBehaviour
         if(collision.gameObject.tag == "Ground")
         {
             isGrounded = true;
+            animator.SetBool("isGrounded", true);
         }
         if (collision.gameObject.tag == "Water")
         {
+            animator.SetTrigger("isDie");
             PlayerReset();
             var uiManager = FindObjectOfType<UIManager>();
             uiManager?.AddScorePlayer(player: 2);

@@ -8,6 +8,12 @@ TextureImporter:
   - first:
       213: -9155244632638664475
     second: kosmonauta_zolty_jump_001_1
+  - first:
+      213: -6240762587435038799
+    second: kosmonauta_zolty_jump_001_0
+  - first:
+      213: -9209882876658887840
+    second: kosmonauta_zolty_jump_001_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -106,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20fc797bf91e5b1a0800000000000000
-      internalID: -6794276386722296062
+      spriteID: 1b70360ed7b5469a0800000000000000
+      internalID: -6240762587435038799
       vertices: []
       indices: 
       edges: []
@@ -120,15 +126,15 @@ TextureImporter:
         y: 0
         width: 32
         height: 32
-      alignment: 1
-      pivot: {x: 0, y: 1}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e055cf538902f080800000000000000
-      internalID: -9155244632638664475
+      spriteID: 0635bc9d15cef2080800000000000000
+      internalID: -9209882876658887840
       vertices: []
       indices: 
       edges: []

@@ -1,7 +1,196 @@
 fileFormatVersion: 2
 guid: 1b917b49cb6e7443eac91b60aa6a31e7
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8489329984963934977
+    second: kosmonauta_czerwony_smierc_003_0
+  - first:
+      213: 8767428155342723443
+    second: kosmonauta_czerwony_smierc_003_1
+  - first:
+      213: 1392758961093855969
+    second: kosmonauta_czerwony_smierc_003_2
+  - first:
+      213: -4371272235298692274
+    second: kosmonauta_czerwony_smierc_003_3
+  - first:
+      213: 3602609188423363190
+    second: kosmonauta_czerwony_smierc_003_4
+  - first:
+      213: 6774597692617387188
+    second: kosmonauta_czerwony_smierc_003_5
+  - first:
+      213: 9010557015662136595
+    second: kosmonauta_czerwony_smierc_003_6
+  - first:
+      213: -8376805260087774546
+    second: kosmonauta_czerwony_smierc_003_7
+  - first:
+      213: -1445856003077615209
+    second: kosmonauta_czerwony_smierc_003_8
+  - first:
+      213: 1273047151730644833
+    second: kosmonauta_czerwony_smierc_003_9
+  - first:
+      213: -3818507328825054021
+    second: kosmonauta_czerwony_smierc_003_10
+  - first:
+      213: 4102877797492626537
+    second: kosmonauta_czerwony_smierc_003_11
+  - first:
+      213: 5706580591645805516
+    second: kosmonauta_czerwony_smierc_003_12
+  - first:
+      213: -6152106227514306520
+    second: kosmonauta_czerwony_smierc_003_13
+  - first:
+      213: 2907027430682141749
+    second: kosmonauta_czerwony_smierc_003_14
+  - first:
+      213: -6352056418335913584
+    second: kosmonauta_czerwony_smierc_003_15
+  - first:
+      213: 6642683481763890342
+    second: kosmonauta_czerwony_smierc_003_16
+  - first:
+      213: 755198704753362141
+    second: kosmonauta_czerwony_smierc_003_17
+  - first:
+      213: -3201378511015844991
+    second: kosmonauta_czerwony_smierc_003_18
+  - first:
+      213: 6714088317039402462
+    second: kosmonauta_czerwony_smierc_003_19
+  - first:
+      213: 1003547195241269370
+    second: kosmonauta_czerwony_smierc_003_20
+  - first:
+      213: -8115657039184560654
+    second: kosmonauta_czerwony_smierc_003_21
+  - first:
+      213: -5458134402865329533
+    second: kosmonauta_czerwony_smierc_003_22
+  - first:
+      213: -570120086694534874
+    second: kosmonauta_czerwony_smierc_003_23
+  - first:
+      213: -2312033151953254520
+    second: kosmonauta_czerwony_smierc_003_24
+  - first:
+      213: 365379245605013382
+    second: kosmonauta_czerwony_smierc_003_25
+  - first:
+      213: 3156488910487276296
+    second: kosmonauta_czerwony_smierc_003_26
+  - first:
+      213: -4250981102139670445
+    second: kosmonauta_czerwony_smierc_003_27
+  - first:
+      213: -3644319319216271145
+    second: kosmonauta_czerwony_smierc_003_28
+  - first:
+      213: -2348136378202603082
+    second: kosmonauta_czerwony_smierc_003_29
+  - first:
+      213: -7891337235927749151
+    second: kosmonauta_czerwony_smierc_003_30
+  - first:
+      213: -8018342147963987481
+    second: kosmonauta_czerwony_smierc_003_31
+  - first:
+      213: 3036355773816609322
+    second: kosmonauta_czerwony_smierc_003_0
+  - first:
+      213: -3432592504568667153
+    second: kosmonauta_czerwony_smierc_003_1
+  - first:
+      213: -2154074910106425226
+    second: kosmonauta_czerwony_smierc_003_2
+  - first:
+      213: 2525451742770919002
+    second: kosmonauta_czerwony_smierc_003_3
+  - first:
+      213: -1702955377295286939
+    second: kosmonauta_czerwony_smierc_003_4
+  - first:
+      213: -9119977704497020820
+    second: kosmonauta_czerwony_smierc_003_5
+  - first:
+      213: 5136507103621316321
+    second: kosmonauta_czerwony_smierc_003_6
+  - first:
+      213: -155959845784603953
+    second: kosmonauta_czerwony_smierc_003_7
+  - first:
+      213: -3381676930784882602
+    second: kosmonauta_czerwony_smierc_003_8
+  - first:
+      213: -1016260834750841186
+    second: kosmonauta_czerwony_smierc_003_9
+  - first:
+      213: -8896408362327097995
+    second: kosmonauta_czerwony_smierc_003_10
+  - first:
+      213: 9027395834706312088
+    second: kosmonauta_czerwony_smierc_003_11
+  - first:
+      213: 4635926900010896634
+    second: kosmonauta_czerwony_smierc_003_12
+  - first:
+      213: 1491688386697602296
+    second: kosmonauta_czerwony_smierc_003_13
+  - first:
+      213: 8521441627877306258
+    second: kosmonauta_czerwony_smierc_003_14
+  - first:
+      213: -2116452913067551574
+    second: kosmonauta_czerwony_smierc_003_15
+  - first:
+      213: 4177605260409537787
+    second: kosmonauta_czerwony_smierc_003_16
+  - first:
+      213: -5699707823596380174
+    second: kosmonauta_czerwony_smierc_003_17
+  - first:
+      213: 6100113542527067186
+    second: kosmonauta_czerwony_smierc_003_18
+  - first:
+      213: 2981823782288608377
+    second: kosmonauta_czerwony_smierc_003_19
+  - first:
+      213: -6182086487368809055
+    second: kosmonauta_czerwony_smierc_003_20
+  - first:
+      213: 9176450594558466283
+    second: kosmonauta_czerwony_smierc_003_21
+  - first:
+      213: 8822978921257265499
+    second: kosmonauta_czerwony_smierc_003_22
+  - first:
+      213: -7298813109201266461
+    second: kosmonauta_czerwony_smierc_003_23
+  - first:
+      213: -492269730359980489
+    second: kosmonauta_czerwony_smierc_003_24
+  - first:
+      213: 6985768257299141965
+    second: kosmonauta_czerwony_smierc_003_25
+  - first:
+      213: -8665770454329041741
+    second: kosmonauta_czerwony_smierc_003_26
+  - first:
+      213: -8700370089567258779
+    second: kosmonauta_czerwony_smierc_003_27
+  - first:
+      213: -1930129517424491640
+    second: kosmonauta_czerwony_smierc_003_28
+  - first:
+      213: -7859596566072958307
+    second: kosmonauta_czerwony_smierc_003_29
+  - first:
+      213: 8914710046933894802
+    second: kosmonauta_czerwony_smierc_003_30
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +229,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +259,672 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a9b0e2d7d432a20800000000000000
+      internalID: 3036355773816609322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe32482cd4bfc50d0800000000000000
+      internalID: -3432592504568667153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678668338403b12e0800000000000000
+      internalID: -2154074910106425226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a567049caf43c0320800000000000000
+      internalID: 2525451742770919002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d19f36b13ed58e0800000000000000
+      internalID: -1702955377295286939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6009f3f8945f6180800000000000000
+      internalID: -9119977704497020820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee7e911ff9884740800000000000000
+      internalID: 5136507103621316321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2b8c8b85be5ddf0800000000000000
+      internalID: -155959845784603953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6501f639fbed111d0800000000000000
+      internalID: -3381676930784882602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9eb889b72485e1f0800000000000000
+      internalID: -1016260834750841186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57dbdaacabb998480800000000000000
+      internalID: -8896408362327097995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bb286bea0c74d70800000000000000
+      internalID: 9027395834706312088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcc3df04fe165040800000000000000
+      internalID: 4635926900010896634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4afa43faa83b410800000000000000
+      internalID: 1491688386697602296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f6ad3130e324670800000000000000
+      internalID: 8521441627877306258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa494ccf949d0a2e0800000000000000
+      internalID: -2116452913067551574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf48386b9d5d9f930800000000000000
+      internalID: 4177605260409537787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_17
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffd50bcee196e0b0800000000000000
+      internalID: -5699707823596380174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_18
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23420e772f4f7a450800000000000000
+      internalID: 6100113542527067186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_19
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ccf1e7ee0916920800000000000000
+      internalID: 2981823782288608377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_20
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5c3a50811d43aa0800000000000000
+      internalID: -6182086487368809055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_21
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be85493623d495f70800000000000000
+      internalID: 9176450594558466283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_22
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b596c4e2594817a70800000000000000
+      internalID: 8822978921257265499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_23
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e81810e52865ba90800000000000000
+      internalID: -7298813109201266461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e4734d94b1b29f0800000000000000
+      internalID: -492269730359980489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_25
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45d383c73f62f060800000000000000
+      internalID: 6985768257299141965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_26
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc54ac5faffcb780800000000000000
+      internalID: -8665770454329041741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_27
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567f8e40083124780800000000000000
+      internalID: -8700370089567258779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_28
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883ca6f1e6dc635e0800000000000000
+      internalID: -1930129517424491640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_29
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d926759a09a1de290800000000000000
+      internalID: -7859596566072958307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kosmonauta_czerwony_smierc_003_30
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296c9173e8967bb70800000000000000
+      internalID: 8914710046933894802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
