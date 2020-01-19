@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullets:
-  - {fileID: 3954799336753383944, guid: 2a8995d8f5041c744b3ae83d64c41d86, type: 3}
+  - {fileID: 1502211810731847195, guid: 2a8995d8f5041c744b3ae83d64c41d86, type: 3}
 --- !u!1 &4020034060709616289
 GameObject:
   m_ObjectHideFlags: 0

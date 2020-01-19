@@ -61,7 +61,8 @@ public class Player1 : MonoBehaviour
             Debug.Log(transform.right);
             Debug.DrawLine(transform.position, transform.position + transform.right*5);
             animator.SetTrigger("isShoot");
-
+            Gun gun = GetComponentInChildren<Gun>();
+            gun?.Fire();
         }
        
 }

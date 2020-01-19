@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7767070573406904711}
   - component: {fileID: 5718152000738196415}
-  - component: {fileID: 3954799336753383944}
+  - component: {fileID: 6441976121505200122}
+  - component: {fileID: 1502211810731847195}
   m_Layer: 0
   m_Name: Snowball
   m_TagString: Untagged
@@ -82,7 +83,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3954799336753383944
+--- !u!50 &6441976121505200122
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3341963834831434946}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1502211810731847195
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,4 +116,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b4c46c562231bf47bf62a5f9818f379, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: {x: 0, y: 0}
+  force: {x: 500, y: 0}
