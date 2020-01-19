@@ -77,19 +77,26 @@ public class Player1 : Player
         if (collision.gameObject.tag == "Water")
         {
             animator.SetTrigger("isDie");
-            StartCoroutine(PlayerResetAfterSeconds(3));
             var uiManager = FindObjectOfType<UIManager>();
             uiManager?.AddScorePlayer(player: 2);
+            uiManager.StartCoroutine(PlayerResetAfterSeconds(3));
         }
-        
     }
 
     private IEnumerator PlayerResetAfterSeconds(int seconds)
     {
+        //float speedBasic = speed;
+        //float jumpSpeedBasic = jumpSpeed;
+        //speed = 0;
+        gameObject.SetActive(false);
         yield return new WaitForSeconds(seconds);
         transform.position = startPosition;
         rb1.velocity = Vector2.zero;
         rb1.angularVelocity = 0;
         transform.rotation = Quaternion.identity;
+        gameObject.SetActive(true);
+        //speed = speedBasic;
+        //jumpSpeed = jumpSpeedBasic;
+
     }
 }
