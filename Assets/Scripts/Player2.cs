@@ -31,7 +31,7 @@ public class Player2 : MonoBehaviour
             rb2.AddForce(new Vector2(0, jumpSpeed));
             isGrounded = false;
 
-            animator.SetBool("IsJumping", false);
+            animator.SetBool("isGrounded", false);
         }
         if (Input.GetKey(KeyCode.LeftArrow)){
             animator.SetBool("isMove", true);
@@ -64,6 +64,7 @@ public class Player2 : MonoBehaviour
         if(collision.gameObject.tag == "Ground")
         {
             isGrounded = true;
+            animator.SetBool("isGrounded", true);
         }
         if (collision.gameObject.tag == "Water")
         {
