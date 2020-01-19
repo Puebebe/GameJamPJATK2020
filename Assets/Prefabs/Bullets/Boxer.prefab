@@ -13,9 +13,8 @@ GameObject:
   - component: {fileID: 6441976121505200122}
   - component: {fileID: 1502211810731847195}
   - component: {fileID: 3617870658013879002}
-  - component: {fileID: 5500762046028667356}
   m_Layer: 0
-  m_Name: Snowball
+  m_Name: Boxer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: cdbb3603a14aa4b0d9415f206610ecaa, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8bb1575e1c04a43b3ba515140443e38c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -118,7 +117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b4c46c562231bf47bf62a5f9818f379, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: {x: 500, y: 0}
+  force: {x: 300, y: 300}
 --- !u!58 &3617870658013879002
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -132,18 +131,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0011707731, y: -0.0058538616}
+  m_Offset: {x: 0.032947257, y: 0.0009961426}
   serializedVersion: 2
-  m_Radius: 0.049926583
---- !u!114 &5500762046028667356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3341963834831434946}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f92d00d667f04ad8856103e55fc625a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Radius: 0.06372835
