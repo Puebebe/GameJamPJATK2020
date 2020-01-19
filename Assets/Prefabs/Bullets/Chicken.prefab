@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1502211810731847195}
   - component: {fileID: 3617870658013879002}
   m_Layer: 0
-  m_Name: Snowball
+  m_Name: Chicken
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73,7 +73,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: cdbb3603a14aa4b0d9415f206610ecaa, type: 3}
+  m_Sprite: {fileID: -5721967479368966008, guid: c630bd5af0bed4f40a645f16ae3e2a30,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -117,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b4c46c562231bf47bf62a5f9818f379, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: {x: 500, y: 0}
+  force: {x: 300, y: 300}
 --- !u!58 &3617870658013879002
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -131,6 +132,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0011707731, y: -0.0058538616}
+  m_Offset: {x: -0.0070111156, y: -0.0058538616}
   serializedVersion: 2
-  m_Radius: 0.049926583
+  m_Radius: 0.110536724
