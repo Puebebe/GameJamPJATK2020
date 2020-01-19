@@ -24,6 +24,6 @@ public class Gun : MonoBehaviour
         Bullet randomBullet = bullets[Random.Range(0, bullets.Count)];
         Bullet bullet = Instantiate(randomBullet, transform.position, Quaternion.identity);
         bullet.transform.localScale = transform.localScale;
-        bullet.GetComponent<Rigidbody2D>().AddForce(bullet.force);
+        bullet.GetComponent<Rigidbody2D>().AddForce(bullet.force * transform.right);
     }
 }
