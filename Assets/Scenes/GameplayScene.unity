@@ -1040,7 +1040,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 13
   m_Sprite: {fileID: 21300000, guid: e53f2131d94a141cfb02ea645dfa62d4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1677,7 +1677,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 13
   m_Sprite: {fileID: 21300000, guid: e53f2131d94a141cfb02ea645dfa62d4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1771,7 +1771,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 12
   m_Sprite: {fileID: 21300000, guid: b9349d88d6514410d834ac7844a98ec0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3123,7 +3123,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 11
   m_Sprite: {fileID: 21300000, guid: b9349d88d6514410d834ac7844a98ec0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3217,7 +3217,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 13
   m_Sprite: {fileID: 21300000, guid: e53f2131d94a141cfb02ea645dfa62d4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3839,6 +3839,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Ground
       objectReference: {fileID: 0}
+    - target: {fileID: -4029924531892713970, guid: ff2e56bbbd9d8934992fc0e0d681d228,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: -3973456933981311358, guid: ff2e56bbbd9d8934992fc0e0d681d228,
         type: 3}
       propertyPath: m_TagString
@@ -4093,6 +4098,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 5161413601101814425, guid: ff2e56bbbd9d8934992fc0e0d681d228,
+        type: 3}
+      propertyPath: m_Layer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5161413601101814425, guid: ff2e56bbbd9d8934992fc0e0d681d228,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5173477486590059761, guid: ff2e56bbbd9d8934992fc0e0d681d228,
         type: 3}
@@ -4436,12 +4451,12 @@ PrefabInstance:
     - target: {fileID: 2509287324926614385, guid: 63170309d2324894982780ba849b10c7,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 2509287324926614385, guid: 63170309d2324894982780ba849b10c7,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63170309d2324894982780ba849b10c7, type: 3}
@@ -4460,12 +4475,12 @@ PrefabInstance:
     - target: {fileID: 9007016505238898909, guid: c152b9fb844f3ac49b16584cddf8824f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.23
+      value: 4.46
       objectReference: {fileID: 0}
     - target: {fileID: 9007016505238898909, guid: c152b9fb844f3ac49b16584cddf8824f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.85
+      value: 1.32
       objectReference: {fileID: 0}
     - target: {fileID: 9007016505238898909, guid: c152b9fb844f3ac49b16584cddf8824f,
         type: 3}
@@ -4511,6 +4526,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007016505238898909, guid: c152b9fb844f3ac49b16584cddf8824f,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007016505238898909, guid: c152b9fb844f3ac49b16584cddf8824f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9007016505238898910, guid: c152b9fb844f3ac49b16584cddf8824f, type: 3}
